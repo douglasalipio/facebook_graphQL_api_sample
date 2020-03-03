@@ -1,7 +1,8 @@
-package com.baseproject.androidapp
+package com.baseproject.douglasapp.feature
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.baseproject.douglasapp.R
 
 class MainActivity : AppCompatActivity() {
 

@@ -2,6 +2,8 @@ apply plugin: 'com.android.application'
 
 apply from: '../config/android-common.gradle'
 apply from: '../config/common.gradle'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion Versions.compileSdk
@@ -36,4 +38,6 @@ dependencies {
     implementation ProjectDependencies.appcompat
     implementation ProjectDependencies.androidX
     implementation ProjectDependencies.constraintLayout
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 }

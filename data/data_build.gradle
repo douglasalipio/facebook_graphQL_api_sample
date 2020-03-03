@@ -25,4 +25,6 @@ android {
 dependencies {
     // project dependencies
     implementation project(ProjectModules.domain)
+	implementation ProjectDependencies.facebookSdk
+	implementation ProjectDependencies.retrofit
 }

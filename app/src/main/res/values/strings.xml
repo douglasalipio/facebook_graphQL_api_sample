@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Android base project</string>
+	<string name="app_name">Android base project</string>
+
+	<string name="facebook_app_id">526696337987951</string>
+	<string name="fb_login_protocol_scheme">fb526696337987951</string>
+
 </resources>
