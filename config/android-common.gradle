@@ -4,4 +4,12 @@ apply plugin: 'kotlin-kapt'
 
 dependencies {
 
+	// koin
+	implementation ProjectDependencies.koin
+	implementation ProjectDependencies.koinViewModel
+
+	// testing dependencies
+	androidTestImplementation ProjectDependencies.androidTestRunner
+	androidTestImplementation ProjectDependencies.espresso
+	androidTestImplementation ProjectDependencies.kakao
 }

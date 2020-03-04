@@ -7,4 +7,12 @@ repositories {
 dependencies {
     //Kotlin
     implementation ProjectDependencies.kotlin
+	// kotlin
+	implementation ProjectDependencies.kotlin
+	// rxjava 2
+	implementation ProjectDependencies.rxJava2
+	// testing dependencies
+	testImplementation ProjectDependencies.junit
+	testImplementation ProjectDependencies.assertJ
+	testImplementation ProjectDependencies.mockitoKotlin
 }
